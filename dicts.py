@@ -1,5 +1,10 @@
 # Based on https://youtu.be/HGOBQPFzWKo?t=1790
 
+# DICTIONARY data structure : Key-Value pairs, unordered, mutable
+
+import utils_edchin.pyxlib
+pyx = utils_edchin.pyxlib()
+pyx.clear_terminal()
 
 campN={}
 campN[(1,3,5)]=2
@@ -14,3 +19,4 @@ for k in campN:
 
 for i in campN:
     print(i)
+

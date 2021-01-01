@@ -1,6 +1,10 @@
 #  Tuples :  ordered , immutable,  allows dupes
 #  store elements that belong together
 #  https://youtu.be/HGOBQPFzWKo?t=991
+#
+#  uses less memory / smaller byte size
+#  faster than a list(due to immutability)
+
 import utils_edchin.pyxlib as sysx
 sysx = sysx()
 sysx.clear_terminal()
@@ -8,7 +12,7 @@ sysx.clear_terminal()
 # DEFINING TUPLES
 print('DEFINING TUPLES ............\n')
 
-my_tuple = ('Ed', 32, 'Houston')
+my_tuple = ('Ed', 32, 'Houston', 'Joe', 25, 'Denver')
 print(my_tuple, type(my_tuple))
 
 
@@ -36,3 +40,21 @@ c=0
 for my_element in my_tuple:
     c+=1
     print('Tuple item:', str(c),  my_element)
+
+print('\n')
+search_list = ["Ed", "Mitch", "Houston", "Denver", "sam"]
+for search_for in search_list:
+    if search_for in my_tuple:
+        print('Yes!,', search_for, 'IS in the tuple.')
+    else:
+        print('No!,', search_for, 'IS NOT in the tuple.')
+
+
+
+# UNPACKING tuplee......
+print('\nUNPACKING tuplee......')
+
+name, age, city = my_tuple
+print(name)
+print(age)
+print(city)

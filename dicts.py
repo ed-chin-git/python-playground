@@ -57,5 +57,5 @@ for key in keys:
     if key in dict_1:
         print(key, ':', dict_1[key])
     else:
-        print(key, 'key does not exits')
+        print(key, 'key does not exists')
 

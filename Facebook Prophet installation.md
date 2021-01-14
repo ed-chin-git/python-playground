@@ -16,10 +16,9 @@ To install mingw-w64 compiler type:
 
 conda install libpython m2w64-toolchain -c msys2
 
-### Then install pystan and fbprophet
+### Then install pystan, plotly and fbprophet
 
-*Install pystan with pip before using pip to install fbprophet*  
-$ conda install pystan  
-$  
-$ pip install fbprophet   
+conda install pystan  
+conda install plotly
+conda install fbprophet -c conda-forge
   

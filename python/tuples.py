@@ -1,5 +1,6 @@
 #  Tuples :  ordered , immutable,  allows dupes
-#  store elements that belong together
+#  use: store elements that belong together
+
 #  https://youtu.be/HGOBQPFzWKo?t=991
 #
 #  uses less memory / smaller byte size

@@ -20,5 +20,5 @@ conda install libpython m2w64-toolchain -c msys2
 
 conda install pystan  
 conda install plotly
-conda install fbprophet -c conda-forge
+conda install -c conda-forge fbprophet
   

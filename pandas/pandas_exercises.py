@@ -3,7 +3,7 @@ import sys
 import pandas as pd
 
 os.system("cls")
-print(sys.platform)
+print('Executing on', sys.platform, 'OS')
 
 df = pd.DataFrame({'team': ['A', 'A', 'B', 'B', 'C'],
                    'points': [25, 12, 15, 14, 19],

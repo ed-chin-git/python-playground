@@ -1,13 +1,12 @@
-# COLLECTIONS 
+# ______________  COLLECTIONS 
 # Data structures : Counter, namedtuple, OrderedDict,  defaultdict, deque
 # Based on https://youtu.be/HGOBQPFzWKo?t=4970
 
 import utils_edchin.pyxlib as pyx 
 pyx = pyx()
-pyx.clear_terminal()
+pyx.clear_terminal() 
 
-
-# COUNTER
+# __________________  COUNTER _________________________
 # container that stores the elements as dictionary keys
 # and their count as values
 from collections import Counter 
@@ -28,14 +27,10 @@ print('.element returns an iterable:', countr_1.elements())
 print(list(countr_1.elements()))
 
 
-# namedtuple
+# ________________ NAMED TUPLE _______________
 from collections import namedtuple
 
 
-
-
 from collections import OrderedDict
-
-
 from collections import defaultdict
 from collections import deque

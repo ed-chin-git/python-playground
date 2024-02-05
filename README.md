@@ -64,3 +64,15 @@ conda remove -n myenv1 --all
 Generally after `source deactivate` on Bash on Windows, Bash is left in a messed up state, with `conda` not in the path. Simplest solution is to restart shell...
 
 If you come across lots of funny issues with Conda + Python 2.x on Windows (encoding WTFs etc.), switch to using **CMD**, it works much better with this combo than PowerShell or Bash. Also, being stuck in CMD-land, it's useful to remember the `start mycommand ...` and `start /B mycommand ...` tricks for starting background jobs just like you do with `&` suffix in Bash (the `/B` version is if you don't want the extra console window for seeing output or stopping the task).
+
+# MultiProcessing vs threading in Python
+
+1. **Explained [here](https://www.youtube.com/watch?v=AZnGRKFUU0c)**
+
+
+# AsyncIO & Asynchronous Programming
+1. **Explained [here](https://www.youtube.com/watch?v=6RbJYN7SoRs)
+
+
+# Flask
+1. **Explained [here](https://www.youtube.com/watch?v=-aqUek49iL8)

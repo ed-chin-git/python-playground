@@ -8,7 +8,7 @@
 
 The easiest way to install conda on your machine is via the [Anaconda Distribution](https://www.anaconda.com/distribution/) of Python & R. Once you have conda installed, read [&#34;A Guide to Conda Environments&#34;](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533). This article will provide an introduce into some of the conda basics. If you need some additional help getting started, the official [&#34;Setting started with conda&#34;](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) guide will point you in the right direction.
 
-:snake :
+:snake:
 
 To get the sprint environment setup:
 
@@ -20,9 +20,6 @@ To get the sprint environment setup:
 6. Next run`python -m ipykernel install --user --name U4-S1-NLP --display-name "U4-S1-NLP (Python3)"` => This will add a json object to an ipython file, so JupterLab will know that it can use this isolated instance of Python. :)
 7. Last step, we need to install the models for Spacy. Run these commands`python -m spacy download en_core_web_md` and`python -m spacy download en_core_web_lg`
 8. Deactivate your conda environment and launch JupyterLab. You should know see "U4-S1-NLP (Python3)" in the list of available kernels on launch screen.
-
-
-# General
 
 Note that you can generally add `-y` to avoid prompts for confirmation if using these in shell scripts.
 
@@ -71,7 +68,7 @@ If you come across lots of funny issues with Conda + Python 2.x on Windows (enco
 
 
 # AsyncIO & Asynchronous Programming
-1. **Explained [here](https://www.youtube.com/watch?v=6RbJYN7SoRs)
+1. **Explained [here](https://www.youtube.com/watch?v=6RbJYN7SoRs) and [here](https://www.youtube.com/watch?v=GpqAQxH1Afc)
 
 
 # Flask

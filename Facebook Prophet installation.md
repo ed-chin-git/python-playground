@@ -6,7 +6,7 @@ The major dependency that Prophet has is pystan. PyStan has its own installation
 
 ## Windows
 On Windows, PyStan requires a compiler so you’ll need to follow the instructions.  
-https://pystan.readthedocs.io/en/latest/windows.html#
+https://pystan.readthedocs.io/en/latest/index.html
 
 
 ### Installing C++ compiler
@@ -19,6 +19,9 @@ conda install libpython m2w64-toolchain -c msys2
 ### Then install pystan, plotly and fbprophet
 
 conda install pystan  
-conda install plotly
+conda install plotly  
 conda install -c conda-forge fbprophet
+
+### TUTORIAL
+https://www.geeksforgeeks.org/time-series-analysis-using-facebook-prophet/
   
